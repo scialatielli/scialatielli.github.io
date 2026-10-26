@@ -1,0 +1,6 @@
+<!DOCTYPE html><html lang="it"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>Cerca · Gli Scialatielli</title><link rel="icon" href="/favicon.svg" type="image/svg+xml"><link rel="stylesheet" href="/_astro/Base.DTL2C1Ap.css"></head><body class><header class="testata"><a class="logo" href="/">Gli Scialatielli</a><nav><a href="/">Home</a><a href="/sessioni/">Diario</a><a href="/compendio/">Compendio</a><a href="/personaggi/">Il Gruppo</a><a href="/cerca/" aria-current="page">Cerca</a></nav></header><main><h1>Cerca</h1><link href="/pagefind/pagefind-ui.css" rel="stylesheet"><div id="ricerca"></div><noscript>La ricerca richiede JavaScript.</noscript><p class="vuoto nota-dev">La ricerca funziona solo sul sito generato (npm run build / preview), non in modalità dev.</p><script src="/pagefind/pagefind-ui.js"></script><script>
+    if (window.PagefindUI) {
+      document.querySelector('.nota-dev')?.remove();
+      new PagefindUI({ element: '#ricerca', showSubResults: true, showImages: false });
+    }
+  </script></main><footer class="piede">Gli Scialatielli · wiki della campagna</footer></body></html>
